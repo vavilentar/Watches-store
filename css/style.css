@@ -1,0 +1,32 @@
+@import url(./header-style.css);
+@import url(./first-screen-style.css);
+@import url(./new-collection-style.css);
+@import url(./old-collection-style.css);
+@import url(./new-arrivals-style.css);
+@import url(./brands-style.css);
+@import url(./footer-style.css);
+
+[class*="__container"] {
+	max-width: 1920px;
+	margin: 0 auto;
+}
+
+body {
+	font-family: 'PT Sans';
+	background-color: #000;
+	margin: 0 auto;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	margin: 0 auto;
+}
+
+button {
+	cursor: pointer;
+	transition: .3s ease-in-out;
+}
+
+button:hover{
+	background-color: white;
+	color: #000;
+}
