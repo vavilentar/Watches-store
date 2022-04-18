@@ -26,3 +26,24 @@
 	justify-content: space-evenly;
 	align-items: center;
 }
+
+@media (max-width: 769px) {
+	.brands-title{
+		padding: 50px 0;
+	}
+	.brands-logo{
+		flex-wrap: wrap;
+	}
+}
+
+@media (max-width: 426px) {
+	.brands-logo img {
+		width: 50%;
+	}
+	.brands-title{
+		padding: 25px 0;
+	}
+	.brands{
+		height: 300px;
+	}
+}

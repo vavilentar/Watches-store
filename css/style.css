@@ -30,3 +30,9 @@ button:hover{
 	background-color: white;
 	color: #000;
 }
+
+@media (max-width: 769px) {
+	[class*="__container"] {
+		width: 100%;
+	}
+}

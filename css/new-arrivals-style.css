@@ -1,10 +1,6 @@
 .new-arrivals {
 	color: white;
 }
-.new-arrivals__container {
-}
-.title {
-}
 .new-arrivals-title {
 	font-family: 'Playfair Display';
 	font-size: 36px;
@@ -24,4 +20,10 @@
 }
 .new-arrivals-tabs{
 	padding-bottom: 40px;
+}
+
+@media (max-width: 769px) {
+	.new-arrivals-title{
+		padding: 50px 0;
+	}
 }

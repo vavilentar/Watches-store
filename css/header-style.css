@@ -42,3 +42,8 @@
 	color: #fff;
 	text-decoration: none;
 }
+@media (max-width: 426px) {
+	.header-menu{
+		display: none;
+	}
+}

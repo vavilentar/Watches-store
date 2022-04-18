@@ -53,3 +53,12 @@
 	color: white;
 	text-transform: uppercase;
 }
+
+@media (max-width: 426px) {
+	.old-catalog-text{
+		width: 100%;
+	}
+	.old-catalog-descr{
+		justify-content: space-around;
+	}
+}
